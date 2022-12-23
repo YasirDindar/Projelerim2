@@ -1,4 +1,4 @@
-package day2_Encapsulation_Inheritance;
+package day02_Encapsulation_Inheritance;
 
 public class DParent {
     String isim = "Ali";

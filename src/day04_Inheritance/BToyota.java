@@ -1,4 +1,4 @@
-package day4_Inheritance;
+package day04_Inheritance;
 
 public class BToyota extends Araba {
     BToyota(){

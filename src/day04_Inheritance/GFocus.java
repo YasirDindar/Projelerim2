@@ -1,4 +1,4 @@
-package day4_Inheritance;
+package day04_Inheritance;
 
 public class GFocus extends Ford{
     GFocus(int pcons){

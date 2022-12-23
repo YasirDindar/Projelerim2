@@ -1,4 +1,4 @@
-package day1_StringBuilder_AccessModifier;
+package day01_StringBuilder_AccessModifier;
 
 public class AccessModifier2 {
     public static void main(String[] args) {
