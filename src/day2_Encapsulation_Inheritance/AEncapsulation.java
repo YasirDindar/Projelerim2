@@ -10,15 +10,15 @@ public class AEncapsulation {
 
     Access modifier ile class uyelerine baska classlardan erisim sinirlandirilabilir.
     ANCAK
-    Ulasilabilen dataya hem okuma hem de yazma yapilabilirken
+    Ulasilabilen dataya hem okuma.exe hem de yazma yapilabilirken
     ulasilamayan data ne okunabilir ne de yazilabilir(degistirilebilir).
 
     Gercek hayattaki ihtiyaclar dusunuldugunde javaya yetki sinirlamayi uyarlamak istersek
 
-    -eger okuma ve yazma yetkisini birlikte vermek ya da vermemek soz konusu ise
+    -eger okuma.exe ve yazma yetkisini birlikte vermek ya da vermemek soz konusu ise
     access modifier kullanilir.
 
-    -Eger okuma ve yazma yetkileri birbirinden ayrilacaksa
+    -Eger okuma.exe ve yazma yetkileri birbirinden ayrilacaksa
     ozaman access modifier yeterli olmaz.
     encapsulation (getter ve setter methodlari ) kullanilmalidir.
 
