@@ -1,6 +1,6 @@
 package day12_Interface;
 
-public interface Interface01 {
+public interface I01_Interface {
     /*
     Interface'ler full abstraction saglar.
     Yani interface icerisinde concrete method bulunmaz.

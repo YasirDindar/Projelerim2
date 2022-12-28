@@ -1,6 +1,6 @@
 package day12_Interface;
 
-public interface Interface03 {
+public interface I03_Interface {
     /*
     Interface'ler ozel bir yapi oduklarindan
     yazilsa da yazilmasa da tum variable'lar

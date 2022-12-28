@@ -1,6 +1,6 @@
 package day12_Interface;
 
-public class KConcreteChildClassOfInterface implements Interface03 {
+public class IK02_ConcreteChildClassOfI03 implements I03_Interface {
 
     //Bir class'i bir interface'in child'i yapmak icin Implement keyword kullanilir
 
