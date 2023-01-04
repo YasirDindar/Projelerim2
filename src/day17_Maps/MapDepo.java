@@ -107,4 +107,43 @@ public class MapDepo {
             System.out.println(eachKey+" "+valueArr[0]+valueArr[1]);
         }
     }
+
+    public static Set<String> siraliOgrenciListesiOlustur(Map<Integer, String> ogrenciMap) {
+
+    Set<String>siraliOgrenciSeti = new TreeSet<>();
+    //tum elementlerin key ve value'lerine birlikte ihtiyac oldugundan entry kullanmaliyiz
+        Set<Map.Entry<Integer,String>>ogrenciEntrySeti = ogrenciMap.entrySet();
+        //her bir entry'i elden gecirip bilgileri istedigimiz fortmatta alalim
+        String istenenBilgi ;
+        String value;
+        String []valueArr;
+        for (Map.Entry<Integer,String >eachEntry:ogrenciEntrySeti
+             ) {
+            value=eachEntry.getValue();
+            valueArr=value.split("-");
+            istenenBilgi =valueArr[4]+", "+valueArr[2]+", "+valueArr[3]+", "+
+                           valueArr[0]+", "+valueArr[1]+", "+eachEntry.getKey();
+            siraliOgrenciSeti.add(istenenBilgi);
+            //map'de herhangi bir degisiklik istenmediginden array, yeniden degistirip
+            //entry.setValue()yapmamiza gerek yok
+        }
+        return siraliOgrenciSeti;
+    }
+
+    public static Map<Integer, String> soyIsmiBuyukHarfYap(Map<Integer, String> ogrenciMapi) {
+        Set<Map.Entry<Integer,String>>ogrenciEntrySeti = ogrenciMapi.entrySet();
+        String soyadiBuyukYap ;
+        String value;
+        String []valueArr ;
+        for (Map.Entry<Integer,String>eachEntry:ogrenciEntrySeti
+             ) {
+            value=eachEntry.getValue();
+            valueArr=value.split("-");
+            valueArr[1]=valueArr[1].toLowerCase();
+            soyadiBuyukYap=valueArr[0]+" "+valueArr[1]+" "+valueArr[2]+" "+
+                            valueArr[3]+" "+valueArr[4];
+
+        }
+        return ogrenciMapi;
+    }
 }
