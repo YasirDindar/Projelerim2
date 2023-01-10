@@ -14,7 +14,7 @@ public class C02_SetSoru {
         String []strArr = str.split("");
         Set<String>strSeti = new TreeSet<>();
 
-        strSeti.addAll(List.of(strArr));//[M, i, p, s]
+        strSeti.addAll(List.of(strArr));//[M, i, p, SayiTahminEtmeOyunu]
 
 
         StringBuilder strBuilder = new StringBuilder();
