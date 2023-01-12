@@ -42,7 +42,7 @@ public class C03_Compute {
         mp1.compute("R",(k,v)->v=3);
         System.out.println(mp1);////{A=0, R=3, B=6, C=10, D=11, E=12}
 
-       // mp1.compute("F",(k,v)->v*3);
+       // mp1.compute("F",(BaskaUrun,v)->v*3);
        // System.out.println(mp1);
         //F diye bir deger daha once atanmadigi icin nullpointer exp. firlatir
 
